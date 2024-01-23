@@ -108,3 +108,14 @@
     }
     
 }
+
+
+
+@media screen and (max-width:450px){
+
+
+    .side{
+        text-align: right;padding-right: 30px;margin-top: -40px;
+    }
+    
+}
