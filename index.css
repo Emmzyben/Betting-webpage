@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: rgb(21, 21, 155);
+    color: white;
+    justify-content: space-around;
+}
+header>div{
+    text-align: center;
+}
+
+#line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#line>div{
+    width: 35%;
+    height: 5px;
+    background-color: rgb(21, 21, 155);
+}
+main{
+    background-color: #fff;
+    font-weight: 500;
+}
+main>div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-bottom: 2px solid  rgb(245, 239, 239);
+}
+main>div>div{
+    width: 50%;
+    text-align: left;
+}
+main>div>div>ul li{
+line-height: 25px;
+}
+ul li{
+    list-style-type: none;
+}
+.side{
+    text-align: right;padding-right: 30px;
+    padding: 20px;
+}
+#dateColor{
+    color: rgb(180, 175, 175);
+}
+#teams{
+    font-weight: bolder;
+}
+#scores{
+    color: green;
+    font-weight: bolder;
+}
+#lastUl2{
+font-weight: bolder;
+line-height: 30px;
+}
+#lastUl{
+    line-height: 30px;
+}
+#aside{
+    margin-left: -20px;
+}
+#summary{
+    background-color: rgb(245, 239, 239);
+}
+#centerDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+section{
+    padding: 50px;
+    background-color: rgb(189, 186, 186);
+}
+#centerDiv>div{
+    width:50% ;
+    text-align: center;
+    margin: 30px;
+}
+#centerDiv>div>div{
+background-color: rgb(21, 21, 155);
+color: #fff;
+padding: 20px;
+border-radius: 70%;
+}
+.lastSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.lastSection>div{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    font-weight: 500;
+    border-right: 2px solid  rgb(236, 233, 233);
+    font-size: small;
+    line-height: 5px;
+    padding: 10px;
+}
