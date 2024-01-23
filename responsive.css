@@ -92,14 +92,14 @@
     #centerDiv>div>div{
     background-color: rgb(21, 21, 155);
     color: #fff;
-    padding: 20px;
+    padding: 5px;
     border-radius: 70%;
     }
     .lastSection{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        font-size: 9px;
+        font-size:4px;
     }
     .lastSection>div{
         display: flex;
@@ -115,7 +115,6 @@
 
 
 @media screen and (max-width:450px){
-
 
     .side{
         text-align: right;padding-right: 30px;margin-top: -20px;
