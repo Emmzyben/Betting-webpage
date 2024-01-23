@@ -47,7 +47,7 @@ ul li{
 }
 .side{
     text-align: right;padding-right: 30px;
-    padding: 20px;
+    padding: 20px;margin-top: -20px
 }
 #dateColor{
     color: rgb(180, 175, 175);
