@@ -6,7 +6,7 @@ header{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-color: rgb(21, 21, 155);
+     background-color: rgb(8, 21, 138);
     color: white;
     justify-content: space-around;
 }
@@ -22,7 +22,7 @@ header>div{
 #line>div{
     width: 35%;
     height: 5px;
-    background-color: rgb(21, 21, 155);
+     background-color: rgb(8, 21, 138);
 }
 main{
     background-color: #fff;
@@ -91,7 +91,7 @@ section{
     margin: 30px;
 }
 #centerDiv>div>div{
-background-color: rgb(21, 21, 155);
+ background-color: rgb(8, 21, 138);
 color: #fff;
 padding: 20px;
 border-radius: 70%;
